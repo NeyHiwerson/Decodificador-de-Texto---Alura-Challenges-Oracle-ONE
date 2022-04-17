@@ -1,0 +1,18 @@
+main{
+    Width:1440px;
+    Height:1024px;
+    background: #E9ECF8
+}
+.mensagem{
+    
+    height: 48px;
+    width: 680px;
+    left: 240px;
+    top: 168px;
+    border-radius: nullpx;
+}
+img{
+    padding-top: 30px;
+    padding-left: 70px;
+
+}
