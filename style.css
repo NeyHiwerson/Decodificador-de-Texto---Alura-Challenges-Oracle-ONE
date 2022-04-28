@@ -67,10 +67,9 @@ img {
   border-color: #0A3871;
   border-radius: 24px;
   grid-area: direita;
-  width: 300px;
+  width: 350px;
   height: 620px;  
-  float: right;
-  
+  float: right;  
   
 }
 
@@ -78,7 +77,7 @@ img {
   
 }
 
-#saidamensagem {
+.imgResultado {
 
 }
 
