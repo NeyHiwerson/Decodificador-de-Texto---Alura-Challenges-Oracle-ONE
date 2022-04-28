@@ -1,52 +1,76 @@
-body { 
+body {  
+  background: #E9ECF8; 
+  width: 100vw;
+  height: 100%;
   
 }
 
-main{
-  Width:1440px;
-  Height:1024px;
-  background: #E9ECF8;  
-  border: 5px solid;
-  border-color: #ff0000;
-  padding: 50px;  
+main{   
+  
+  width: 960px;
+  height: 700px;  
+  display: grid;
+	grid-template-areas:
+		"topo topo direita"
+		"corpo corpo direita"
+		"rodape rodape rodape" ;    
+}
+
+.img {
+  
+  grid-area: topo;
+  width: 600px;
+  height: 60px; 
+  padding-left: 30px;
+  padding-top: 20px; 
+}
+
+img {
   
 }
 
-img{
-  border: 5px solid;
-  border-color: #ff0000;
+.corpo {  
+  grid-area: corpo;
+  width: 630px;
+  height: 530px;   
 
 }
 
-.mensagem{
-  border: 5px solid;
-  border-color: #ff0000;
+.mensagem{  
+  display: block;
+  padding-left: 100px;
+  width: 520px;
+  height: 470px;  
+  background: none;
+  border: none;
+
     
 }
 
-.buttons{        
-    Width:930px;
-    Height:40px;
-    border: 5px solid;
-    border-color: #ff0000;    
-    padding: 24px;
-
+.buttons{     
+  display: block;   
+  
 }
 
 #btn1,#btn2{
-    width: 300px;
+    width: 40%;
     height: 40px;
-    /*background: #0A3871;*/
     border-radius: 24px;
-    margin: 0px 70px;
+    margin-left: 45px;
+    
+    /*background: #0A3871;*/
+    
 }
 
 .saida {  
   border: 5px solid;
-  border-color: #ff0000;
-  width: 400px;
-  height: 924px;  
+  border-color: #0A3871;
+  border-radius: 24px;
+  grid-area: direita;
+  width: 300px;
+  height: 620px;  
   float: right;
+  
   
 }
 
@@ -62,14 +86,15 @@ img{
     width: 120px;
     height: 40px;
     border-radius: 24px;
-    margin: 30px 140px;
+    
 }
 
-footer {
-    
-    border: 5px solid;
-    border-color: #ff0000; 
+footer {    
+    grid-area: rodape; 
+    display: block;
     text-align: center;
+    height:40px;
+    padding-top: 20px ;
 }
 
 .rodape {
@@ -77,5 +102,5 @@ footer {
 }
 
 h3 {
-
+  font-size: 20px;
 }
