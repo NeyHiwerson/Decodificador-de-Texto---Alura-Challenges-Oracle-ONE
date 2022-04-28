@@ -1,82 +1,81 @@
-html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, 
-    blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, 
-    img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, 
-    i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, 
-    caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, 
-    embed, figure, figcaption, footer, header, hgroup, menu, nav, output, 
-    ruby, section, summary, time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, 
-    nav, section {
-  display: block;
-}
-body {
-  line-height: 1;
-}
-ol, ul {
-  list-style: none;
-}
-blockquote, q {
-  quotes: none;
-}
-blockquote:before, blockquote:after,q:before, q:after {
-  content: '';
-  content: none;
-}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
+body { 
+  
 }
 
 main{
-    Width:1440px;
-    Height:1024px;
-    background: #E9ECF8
+  Width:1440px;
+  Height:1024px;
+  background: #E9ECF8;  
+  border: 5px solid;
+  border-color: #ff0000;
+  padding: 50px;  
+  
 }
-.mensagem{
-    
-    height: 48px;
-    width: 680px;
-    left: 240px;
-    top: 168px;
-    border-radius: nullpx;
-}
+
 img{
-    padding-top: 30px;
-    padding-left: 70px;
+  border: 5px solid;
+  border-color: #ff0000;
 
 }
-.button{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+
+.mensagem{
+  border: 5px solid;
+  border-color: #ff0000;
+    
+}
+
+.buttons{        
+    Width:930px;
+    Height:40px;
+    border: 5px solid;
+    border-color: #ff0000;    
     padding: 24px;
-    position: static;
 
 }
 
 #btn1,#btn2{
     width: 300px;
     height: 40px;
-    left: 0px;
-    top: 0px;
-
-/* Dark blue/dark-blue-300 */
-
     /*background: #0A3871;*/
     border-radius: 24px;
+    margin: 0px 70px;
+}
 
-/* Inside auto layout */
+.saida {  
+  border: 5px solid;
+  border-color: #ff0000;
+  width: 400px;
+  height: 924px;  
+  float: right;
+  
+}
 
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 0px 24px;
+.resultado {
+  
+}
+
+#saidamensagem {
+
+}
+
+#btn3 {
+    width: 120px;
+    height: 40px;
+    border-radius: 24px;
+    margin: 30px 140px;
+}
+
+footer {
+    
+    border: 5px solid;
+    border-color: #ff0000; 
+    text-align: center;
+}
+
+.rodape {
+
+}
+
+h3 {
+
 }
